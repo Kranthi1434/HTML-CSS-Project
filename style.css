@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+body {
+  background-image: url("https://img.freepik.com/free-photo/mount-mont-blanc-covered-snow-reflecting-water-evening-chamonix-france_181624-33408.jpg?t=st=1728321872~exp=1728325472~hmac=a83c58b2b5684629b485b276735f9ab2d870301537dd06a4e939499019b45bbc&w=1060");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  margin: 0px 80px 0px 80px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 15px 0px;
+}
+
+.logo {
+  font-size: 34px;
+  font-weight: bold;
+  color: #ff7200;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 70px;
+}
+
+/* nav li {
+    margin: 0 15px;
+} */
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav a:hover {
+  text-decoration: none;
+  color: #ff7200;
+}
+
+input[type="text"] {
+  width: 200px;
+  height: 20px;
+  background: transparent;
+  border: 1px solid #ff7200;
+  margin-top: 13px;
+  /* color: #fff; */
+  border-right: none;
+  font-size: 16px;
+  float: left;
+  padding: 10px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+::placeholder {
+  color: white;
+}
+input[type="text"]:focus {
+  color: #fff;
+}
+.btn-search {
+  width: 100px;
+  height: 40px;
+  background: #ff7200;
+  border: 2px solid #ff7200;
+  margin-top: 13px;
+  color: #fff;
+  font-size: 15px;
+  border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+.btn-search:hover {
+  color: black;
+  font-size: 15px;
+  border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  transition: 0.2s ease;
+  border: 2px solid #ffffff;
+}
+
+.btn-search:focus {
+  outline: none;
+  border-color: 2px solid white;
+}
+section {
+  margin-top: 100px;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+.content h1 {
+  font-family: "Times New Roman";
+  font-size: 50px;
+  letter-spacing: 2px;
+  color: #fff;
+}
+.content h1 span {
+  font-family: "Times New Roman";
+  font-size: 50px;
+  letter-spacing: 2px;
+  color: #ff7200;
+}
+.content p {
+  font-size: 16px;
+  color: #fff;
+  line-height: 25px;
+}
+.content button {
+  width: 160px;
+  height: 40px;
+  background: #ff7200;
+  border: none;
+  margin-top: 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+.content button a {
+  text-decoration: none;
+  color: #000;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #fff;
+}
